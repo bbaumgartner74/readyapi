@@ -1,0 +1,10 @@
+<con:reportTemplate xmlns:con="http://eviware.com/soapui/config">
+  <con:name>TestStepParametersReport-Anexia Engine</con:name>
+  <con:reportType>COMMON</con:reportType>
+  <con:reportLevel>SUBREPORT</con:reportLevel>
+  <con:nameInReport>TestStepParametersReport</con:nameInReport>
+  <con:data xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  <con:description>Shows parameters of individual teststeps</con:description>
+  <con:scope>PROJECT</con:scope>
+  <con:dataSource>TestStepParameters</con:dataSource>
+</con:reportTemplate>

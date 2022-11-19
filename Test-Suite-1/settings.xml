@@ -2,8 +2,14 @@
 <con:testSuite id="f8056e8e-8aad-4449-a2bf-6dbce5884669" name="Test Suite 1" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="f8056e8e-8aad-4449-a2bf-6dbce5884669fileName">Test-Suite-1</con:setting>
+    <con:setting id="GeneratableAllureReport@Folder">C:\Users\belin\OneDrive\Desktop\allure-reports</con:setting>
   </con:settings>
   <con:runType>SEQUENTIAL</con:runType>
   <con:properties/>
   <con:reportParameters/>
+  <con:environmentSpec>
+    <con:entry environmentId="617e5475-26b8-4094-a9a4-6572872f9ab2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:testSuite>

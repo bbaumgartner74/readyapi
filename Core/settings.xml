@@ -13,4 +13,9 @@
   <con:endpoints>
     <con:endpoint>https://reqres.in/api/users</con:endpoint>
   </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="617e5475-26b8-4094-a9a4-6572872f9ab2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:interface>
