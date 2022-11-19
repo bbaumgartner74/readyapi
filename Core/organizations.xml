@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="organizations" path="/organizations" id="27bc385f-99af-433e-b597-9d7defe2b915" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="27bc385f-99af-433e-b597-9d7defe2b915fileName">organizations</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Delete" id="dd0d0032-1185-4bdd-91b1-f707b6877972" method="DELETE">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="78de9273-7761-4421-acaf-5398a66638a4" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>https://reqres.in/api/users</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+  <con:method name="Create" id="cbd9f581-b53a-473b-af0e-f591e4956f17" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="20e912df-aa5d-4daa-8e7e-9688e7f32173" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>https://reqres.in/api/users</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+  <con:method name="View" id="be327e9f-b7a9-4be9-bd7e-8097339d2da2" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="4584d316-66a2-484f-8a35-fd58628b2a84" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://reqres.in/api/users</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+  <con:method name="Update" id="046c731c-8cc5-48a9-90fb-abf6b24ad369" method="PUT">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="920a8d09-3417-40b9-af4a-1ff594877cfd" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>https://reqres.in/api/users</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
